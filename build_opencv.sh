@@ -139,6 +139,7 @@ configure () {
     cmake ${CMAKEFLAGS} .. 2>&1 | tee -a configure.log
 }
 
+
 main () {
 
     local VER=${DEFAULT_VERSION}
